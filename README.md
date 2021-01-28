@@ -24,8 +24,11 @@ export DYLD_LIBRARY_PATH=$DYLD_LIBRARY_PATH:~/mydir/lib
 
 ```bash
 # test tensorflow version
-make test
-make run
+# make test
+# make run
+# 删掉docker-compose.yml的build
+docker-compose up
+make wrk3
 ```
 
 ## Tips
